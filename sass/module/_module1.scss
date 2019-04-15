@@ -1,0 +1,60 @@
+.module-1 {
+	background-color: $color-blue-gray;
+	color: $color-light;
+	margin-bottom: 20px;
+
+	.submodule-1 {
+		background-color: white;
+		border-radius: 20px 20px 0 0;
+		color: black;
+		margin: 20px 20px 0;
+
+		.icon-container {
+			display: inline-block;
+
+			.bg-design {
+				background: url(../images/mobile/module-1/circle-button.png) no-repeat center;
+				display: inline-block;
+				min-height: 128px;
+				position: relative;
+				width: 128px;
+
+				img {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: auto;
+				}
+			}
+
+		}
+
+		.icon-label {
+
+		}
+
+	}
+
+	.submodule-2 {
+		background-color:  $color-light;
+		border-top: 1px solid $color-gray;
+		color: black;
+
+		.submodule-2-descriptions {
+			color: $color-gray;
+			display: inline-block;
+		}
+
+		.bg-icon {
+			background: url(../images/mobile/module-1/checked-icon.png) no-repeat center;
+			display: inline-block;
+			height: 12px;
+			margin-right: 1%;
+			width: 16px;
+		}
+
+	}
+
+}

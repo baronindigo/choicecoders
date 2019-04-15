@@ -1,0 +1,1 @@
+<footer> Copyright &copy; <?php echo date("Y"); ?> Choicecoders. All rights reserved. </footer>

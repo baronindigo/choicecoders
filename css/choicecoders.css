@@ -1,0 +1,48 @@
+/* Welcome to Compass. Use this file to write IE specific override styles. Import this file using the following HTML or equivalent: <!--[if IE]> <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" /> <![endif]--> */
+/* Welcome to Compass. Use this file to define print styles. Import this file using the following HTML or equivalent: <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+body { text-align: center; }
+
+.header { background-color: white; height: 116px; }
+
+header { background-color: #FFF; padding: 10px 0; }
+
+footer { background-color: #273248; color: #FFF; padding: 10px 0; }
+
+.module-1 { background-color: #273248; color: #FFF; margin-bottom: 20px; }
+.module-1 .submodule-1 { background-color: white; border-radius: 20px 20px 0 0; color: black; margin: 20px 20px 0; }
+.module-1 .submodule-1 .icon-container { display: inline-block; }
+.module-1 .submodule-1 .icon-container .bg-design { background: url(../images/mobile/module-1/circle-button.png) no-repeat center; display: inline-block; min-height: 128px; position: relative; width: 128px; }
+.module-1 .submodule-1 .icon-container .bg-design img { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+.module-1 .submodule-2 { background-color: #FFF; border-top: 1px solid #CCC; color: black; }
+.module-1 .submodule-2 .submodule-2-descriptions { color: #CCC; display: inline-block; }
+.module-1 .submodule-2 .bg-icon { background: url(../images/mobile/module-1/checked-icon.png) no-repeat center; display: inline-block; height: 12px; margin-right: 1%; width: 16px; }
+
+.module-2 .background-design { width: 100%; background: url(../images/mobile/module-2/background-design.png) no-repeat center; display: inline-block; min-height: 184px; position: relative; }
+.module-2 .background-design img { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+
+.module-3 .submodule { width: 100%; }
+.module-3 .submodule .label-number { width: 10%; display: inline-block; background-color: grey; line-height: 70px; border-radius: 35px; }
+.module-3 .submodule .card { width: 85%; display: inline-block; border: 2px solid black; border-radius: 15px; min-height: 300px; }
+
+.module-4 .bg-design { background: url(../images/mobile/module-4/bg-design.png) no-repeat center; min-height: 340px; }
+.module-4 .submodule { width: 200px; display: inline-block; }
+
+.module-6 { background-color: #CCC; }

@@ -1,0 +1,20 @@
+.module-2 {
+
+	.background-design {
+		width: 100%;
+		background: url(../images/mobile/module-2/background-design.png) no-repeat center;
+		display: inline-block;
+		min-height: 184px;
+		position: relative;
+
+		img {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+
+}

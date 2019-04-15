@@ -1,0 +1,23 @@
+.module-3 {
+
+	.submodule { 
+		width: 100%;
+
+		.label-number { 
+			width: 10%;
+			display: inline-block;
+			background-color: grey;
+			line-height: 70px;
+			border-radius: 35px;
+		}
+
+		.card { 
+			width: 85%;
+			display: inline-block;
+			border: 2px solid black;
+			border-radius: 15px;
+			min-height: 300px;
+		}
+	}
+
+}
