@@ -10,15 +10,19 @@
 	</div>
 
 	<div class="bg-design">
-		<div><img src="images/mobile/module-4/money-icon.png" /></div>
-		<div><h4>Best Price</h4></div>
-		<div>Choose your own price and start the project.</div>
+		<div class="submodule">
+			<img src="images/mobile/module-4/money-icon.png" />
+			<h4>Best Price</h4>
+			<span>Choose your own price and start the project.</span>
+		</div>
 	</div>
 
 	<div class="bg-design">
-		<div><img src="images/mobile/module-4/rocket-icon.png" /></div>
-		<div><h4>Fast Launch</h4></div>
-		<div>With expertise coder you will get the project done easily.</div>
+		<div class="submodule">
+			<img src="images/mobile/module-4/rocket-icon.png" />
+			<h4>Fast Launch</h4>
+			<span>With expertise coder you will get the project done easily.</span>
+		</div>
 	</div>
 	
 </section>

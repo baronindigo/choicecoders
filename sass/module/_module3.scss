@@ -1,12 +1,16 @@
 .module-3 {
+	padding: 20px;
+	margin-bottom: 100px;
 
 	.submodule { 
 		width: 100%;
+		margin: 20px 0;
+		position: relative;
 
 		.label-number { 
 			width: 10%;
 			display: inline-block;
-			background-color: grey;
+			background-color: $color-gray;
 			line-height: 70px;
 			border-radius: 35px;
 		}
@@ -14,9 +18,30 @@
 		.card { 
 			width: 85%;
 			display: inline-block;
-			border: 2px solid black;
+			background-color: $color-light;
+			border: 2px solid $color-gray;
 			border-radius: 15px;
+			margin-left: -20px;
 			min-height: 300px;
+			text-align: center;
+
+			.card-label {
+				margin: 10px 0 0;
+			}
+
+			.card-separator {
+				border: 1px solid $color-green;
+				display: inline-block;
+				margin: 10px 0;
+				width: 40%;
+			}
+
+			.card-description {
+				//color:;
+				line-height: 24px;
+				margin: 0 10px;
+			}
+
 		}
 	}
 

@@ -1,0 +1,39 @@
+.module-5 {
+	padding: 20px;
+
+	.module-headline {
+		margin: 40px 0;
+	}
+
+	.submodule {
+		border: 1px solid $color-gray;
+		margin: 50px 0;
+		display: inline-block;
+		padding: 0 15px;
+
+		width: 354px;
+		min-height: 286px;
+
+		.submodule-image {}
+
+		.submodule-description {
+			line-height: 30px;
+		}
+
+		.submodule-name {}
+
+		.submodule-position {
+			color: $color-green;
+		}
+
+		.submodule-image,
+		.submodule-description,
+		.submodule-name,
+		.submodule-position {
+			top: -60px;
+			position: relative;
+			margin-bottom: 20px
+		}
+
+	}
+}

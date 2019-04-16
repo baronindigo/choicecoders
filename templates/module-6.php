@@ -1,7 +1,7 @@
 <section class="module-6">
-	<div>
-		Accelerate Your Growth and Maximize Revenue with Choice Coders
-	</div>
-	<div> Ready to Get Started?</div>
-	<div><button>Join Choice Coders</button></div>
+	<h2 class="module-headline">Accelerate Your Growth and Maximize Revenue with Choice Coders</h2>
+
+	<div class="submodule-description"> Ready to Get Started?</div>
+
+	<div><button class="btn">Join Choice Coders</button></div>
 </section>

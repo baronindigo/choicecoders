@@ -15,7 +15,7 @@
 			<?php include_once("templates/module-2.php"); ?>
 
 			<?php // ?>
-			<?php //include_once("templates/module-3.php"); ?>
+			<?php include_once("templates/module-3.php"); ?>
 
 			<?php // Why Choice Coders ?>
 			<?php include_once("templates/module-4.php"); ?>
