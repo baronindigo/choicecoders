@@ -1,13 +1,18 @@
 .module-1 {
 	background-color: $color-blue-gray;
 	color: $color-light;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
+
+	.module-headline {
+		padding: 20px;
+	}
 
 	.submodule-1 {
 		background-color: white;
 		border-radius: 20px 20px 0 0;
 		color: black;
 		margin: 20px 20px 0;
+		padding-bottom: 15px;
 
 		.icon-container {
 			display: inline-block;
@@ -41,6 +46,7 @@
 		background-color:  $color-light;
 		border-top: 1px solid $color-gray;
 		color: black;
+		padding-top: 10px;
 
 		.submodule-2-descriptions {
 			color: $color-gray;
@@ -48,11 +54,12 @@
 		}
 
 		.bg-icon {
-			background: url(../images/mobile/module-1/checked-icon.png) no-repeat center;
+			background: url(../images/mobile/module-1/checked-icon.png) no-repeat left;
 			display: inline-block;
-			height: 12px;
-			margin-right: 1%;
-			width: 16px;
+			padding-left: 20px;
+			//height: 12px;
+			//margin-right: 1%;
+			//width: 16px;
 		}
 
 	}

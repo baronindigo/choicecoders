@@ -1,3 +1,19 @@
 .module-6 {
 	background-color: $color-gray;
+	padding: 20px 20px 30px;
+
+	.module-headline {
+		padding: 20px 0;
+	}
+
+	.submodule-description {
+		margin: 20px 0;
+	}
+
+	.btn {
+		background-color: $color-button;
+		color: $color-light;
+		padding: 10px 20px;
+		font-size: 18px;
+	}
 }

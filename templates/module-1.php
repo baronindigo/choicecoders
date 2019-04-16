@@ -1,5 +1,5 @@
 <section class="module-1">
-	<div>
+	<div class="module-headline">
 		<h1>World-Class Talent, Expertise, and Service</h1>
 		<h3>Carefully Handpicked to Turn Your Vision into Reality</h3>
 	</div>
@@ -36,9 +36,9 @@
 	</div>
 
 	<div class="submodule-2">
-		<div class="submodule-2-descriptions"><span class="bg-icon"></span><span>59 Satisfied Clients </span></div>
-		<div class="submodule-2-descriptions"><span class="bg-icon"></span><span>134 Projects done</span></div>
-		<div class="submodule-2-descriptions"><span class="bg-icon"></span><span>253+ Development company's</span></div>
+		<div class="submodule-2-descriptions"><span class="bg-icon">59 Satisfied Clients </span></div>
+		<div class="submodule-2-descriptions"><span class="bg-icon">134 Projects done</span></div>
+		<div class="submodule-2-descriptions"><span class="bg-icon">253+ Development company's</span></div>
 	</div>
 
 </section>
