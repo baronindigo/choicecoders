@@ -37,7 +37,10 @@ footer { background-color: #273248; color: #FFF; font-size: 10px; padding: 10px 
 .module-1 { background-color: #273248; color: #FFF; margin-bottom: 100px; }
 .module-1 .module-headline { padding: 20px; }
 .module-1 .submodule-1 { background-color: white; border-radius: 20px 20px 0 0; color: black; margin: 20px 20px 0; padding-bottom: 15px; }
-.module-1 .submodule-1 .icon-container { display: inline-block; }
+@media (min-width: 980px) { .module-1 .submodule-1 { margin: 20px 100px 0; } }
+.module-1 .submodule-1 .icon-container { display: inline-block; vertical-align: top; width: 45%; }
+@media (min-width: 768px) { .module-1 .submodule-1 .icon-container { width: auto; } }
+@media (min-width: 980px) { .module-1 .submodule-1 .icon-container { width: 22%; } }
 .module-1 .submodule-1 .icon-container .bg-design { background: url(../images/mobile/module-1/circle-button.png) no-repeat center; display: inline-block; min-height: 128px; position: relative; width: 128px; }
 .module-1 .submodule-1 .icon-container .bg-design img { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
 .module-1 .submodule-2 { background-color: #FFF; border-top: 1px solid #CCC; color: black; padding-top: 10px; }
@@ -45,26 +48,41 @@ footer { background-color: #273248; color: #FFF; font-size: 10px; padding: 10px 
 .module-1 .submodule-2 .bg-icon { background: url(../images/mobile/module-1/checked-icon.png) no-repeat left; display: inline-block; padding-left: 20px; }
 
 .module-2 { padding: 20px; margin-bottom: 100px; }
+.module-2 .submodules-container { display: inline-block; }
+.module-2 .submodule { display: inline-block; vertical-align: top; }
+@media (min-width: 768px) { .module-2 .submodule { margin: 15px 0; width: 32%; } }
+@media (min-width: 980px) { .module-2 .submodule { width: 18%; } }
+.module-2 .submodule .submodule-subheadline { margin: 30px 0; }
 .module-2 .background-design { width: 100%; background: url(../images/mobile/module-2/background-design.png) no-repeat center; display: inline-block; min-height: 184px; position: relative; }
 .module-2 .background-design img { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
-.module-2 .module-separator { margin: 40px 0; }
-.module-2 .module-subheadline { margin: 30px 0; }
+.module-2 .module-separator { background: url(../images/mobile/module-2/arrow.png) no-repeat center; display: inline-block; margin: 40px 0; height: 73px; width: 37px; }
+@media (min-width: 768px) { .module-2 .module-separator { background: url(../images/mobile/module-2/arrow-right.png) no-repeat center; margin: 75px 0; height: 37px; width: 73px; } }
+@media (min-width: 980px) { .module-2 .module-separator { margin: 90px 0; } }
+@media (min-width: 768px) { .module-2 .separator-2 { display: none; } }
+@media (min-width: 980px) { .module-2 .separator-2 { display: inline-block; } }
 
 .module-3 { padding: 20px; margin-bottom: 100px; }
-.module-3 .submodule { width: 100%; margin: 20px 0; position: relative; }
-.module-3 .submodule .label-number { width: 10%; display: inline-block; background-color: #CCC; line-height: 70px; border-radius: 35px; }
+.module-3 .submodule { width: 100%; margin: 20px 0; position: relative; display: inline-block; vertical-align: top; }
+@media (min-width: 980px) { .module-3 .submodule { width: 400px; } }
+.module-3 .submodule .card-number { display: inline-block; vertical-align: top; }
+.module-3 .submodule .label-number { background: #CCC; border-bottom-left-radius: 90px; border-top-left-radius: 90px; display: inline-block; line-height: 90px; margin: 107px 14px 107px 0; height: 90px; width: 45px; }
+.module-3 .submodule .label-number .number { margin-left: 10px; }
 .module-3 .submodule .card { width: 85%; display: inline-block; background-color: #FFF; border: 2px solid #CCC; border-radius: 15px; margin-left: -20px; min-height: 300px; text-align: center; }
+@media (min-width: 768px) { .module-3 .submodule .card { width: 300px; } }
 .module-3 .submodule .card .card-label { margin: 10px 0 0; }
 .module-3 .submodule .card .card-separator { border: 1px solid #8CC63E; display: inline-block; margin: 10px 0; width: 40%; }
 .module-3 .submodule .card .card-description { line-height: 24px; margin: 0 10px; }
 
 .module-4 { padding: 20px; margin-bottom: 100px; }
-.module-4 .bg-design { background: url(../images/mobile/module-4/bg-design.png) no-repeat center; min-height: 340px; position: relative; margin: 30px 0; }
-.module-4 .submodule { width: 200px; display: inline-block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; max-height: 200px; }
+@media (min-width: 980px) { .module-4 .submodules-container .submodule { display: inline-block; width: 370px; } }
+.module-4 .submodules-container .submodule .bg-design { background: url(../images/mobile/module-4/bg-design.png) no-repeat center; min-height: 340px; position: relative; margin: 30px 0; }
+.module-4 .submodules-container .submodule .bg-design .submodule-description { width: 200px; display: inline-block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; max-height: 200px; vertical-align: top; }
 
 .module-5 { padding: 20px; }
 .module-5 .module-headline { margin: 40px 0; }
-.module-5 .submodule { border: 1px solid #CCC; margin: 50px 0; display: inline-block; padding: 0 15px; width: 354px; min-height: 286px; }
+.module-5 .submodule { border: 1px solid #CCC; margin: 50px 0; display: inline-block; padding: 0 15px; vertical-align: top; width: 354px; min-height: 286px; }
+@media (min-width: 768px) { .module-5 .submodule { width: inherit; } }
+@media (min-width: 980px) { .module-5 .submodule { text-align: left; margin: 5% 2%; width: 25%; } }
 .module-5 .submodule .submodule-description { line-height: 30px; }
 .module-5 .submodule .submodule-position { color: #8CC63E; }
 .module-5 .submodule .submodule-image, .module-5 .submodule .submodule-description, .module-5 .submodule .submodule-name, .module-5 .submodule .submodule-position { top: -60px; position: relative; margin-bottom: 20px; }
@@ -72,4 +90,4 @@ footer { background-color: #273248; color: #FFF; font-size: 10px; padding: 10px 
 .module-6 { background-color: #CCC; padding: 20px 20px 30px; }
 .module-6 .module-headline { padding: 20px 0; }
 .module-6 .submodule-description { margin: 20px 0; }
-.module-6 .btn { background-color: #FA8109; color: #FFF; padding: 10px 20px; font-size: 18px; }
+.module-6 .btn { background-color: #FA8109; color: #FFF; cursor: pointer; padding: 10px 20px; font-size: 18px; }

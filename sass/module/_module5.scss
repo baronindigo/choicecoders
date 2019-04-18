@@ -11,10 +11,25 @@
 		display: inline-block;
 		padding: 0 15px;
 
+		vertical-align: top;
+
 		width: 354px;
 		min-height: 286px;
 
-		.submodule-image {}
+		@include md {
+			width: inherit;
+		}
+
+		@include lg {
+			text-align: left;
+			margin: 5% 2%;
+			width: 25%;
+		}
+
+		.submodule-image {
+
+
+		}
 
 		.submodule-description {
 			line-height: 30px;

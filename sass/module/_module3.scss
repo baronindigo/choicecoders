@@ -6,13 +6,28 @@
 		width: 100%;
 		margin: 20px 0;
 		position: relative;
+		display: inline-block;
+		vertical-align: top;
+
+		@include md {
+		}
+
+		@include lg {
+			width: 400px;
+		}
+
+		.card-number {
+			display: inline-block;
+			vertical-align: top;
+		}
 
 		.label-number { 
-			width: 10%;
-			display: inline-block;
-			background-color: $color-gray;
-			line-height: 70px;
-			border-radius: 35px;
+
+			@include semi-circle;
+
+			.number {
+				margin-left: 10px;
+			}
 		}
 
 		.card { 
@@ -24,6 +39,14 @@
 			margin-left: -20px;
 			min-height: 300px;
 			text-align: center;
+
+			@include md {
+				width: 300px;
+			}
+
+			@include lg {
+
+			}
 
 			.card-label {
 				margin: 10px 0 0;
@@ -37,7 +60,6 @@
 			}
 
 			.card-description {
-				//color:;
 				line-height: 24px;
 				margin: 0 10px;
 			}

@@ -3,6 +3,14 @@
 	color: $color-light;
 	margin-bottom: 100px;
 
+	@include md {
+		 
+	}
+
+	@include lg {
+
+	}
+
 	.module-headline {
 		padding: 20px;
 	}
@@ -14,8 +22,26 @@
 		margin: 20px 20px 0;
 		padding-bottom: 15px;
 
+		@include md {
+
+		}
+
+		@include lg {
+			margin: 20px $spacing-desktop 0;
+		}
+
 		.icon-container {
 			display: inline-block;
+			vertical-align: top;
+			width: 45%;
+
+			@include md {
+				width: auto;
+			}
+
+			@include lg {
+				width: 22%;
+			}
 
 			.bg-design {
 				background: url(../images/mobile/module-1/circle-button.png) no-repeat center;
